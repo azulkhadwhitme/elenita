@@ -1,0 +1,137 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(si.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+div {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h5 {
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#btn1 {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+#btn2 {
+    background-color: #f44336;
+    color: #fff;
+}
+
+.mov1 {
+    position: absolute;
+    top: 30px;
+    right: 12px;
+    transform: skew(20deg);
+}
+
+.mov2 {
+    position: absolute;
+    top: 60px;
+    background-image: linear-gradient(to right, #db4a34,#ff0000); 
+    left: 12px;
+}
+
+.mov3 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-image: linear-gradient(to right, #3498db,#ffcc00); 
+    padding: 10px;
+}
+
+.mov4 {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    border: 2px solid #3498db;
+    padding: 15px;
+}
+
+.mov5 {
+    position: absolute;
+    bottom: 50px;
+    left: 30px;
+    transform: rotate(45deg);
+}
+
+.mov6 {
+    position: absolute;
+    top: 20px;
+    left: 120px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.mov7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    right: 50px;
+    border-radius: 50%;
+    background-color: #e74c3c;
+    width: 50px;
+    height: 50px;
+}
+
+.mov8 {
+    position: absolute;
+    top: 80px;
+    right: 80px;
+    font-size: 20px;
+    color: #2ecc71;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.7);
+}
+
+.mov9 {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    transform: scale(1.5);
+}
+
+.mov10 {
+    position: absolute;
+    bottom: 30px;
+    left: 80px;
+    background-image: linear-gradient(to right, #3498db, #1abc9c);
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.mov11 {
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    background-image: linear-gradient(to right, #000000, #000000);
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
